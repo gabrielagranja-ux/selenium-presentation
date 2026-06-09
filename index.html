@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Selenium Presentation</title>
+
+    <link rel="stylesheet" href="reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="reveal.js/dist/theme/black.css">
+
+    <style>
+
+    .reveal h1 {
+        font-size: 2.8em;
+    }
+
+    .reveal h2 {
+        font-size: 1.8em;
+    }
+
+    .reveal p {
+        font-size: 1.1em;
+    }
+
+    .reveal section {
+        text-align: center;
+    }
+
+    </style>
+</head>
+
+<body>
+
+<div class="reveal">
+    <div class="slides">
+
+    <section>
+
+    <h1>Selenium</h1>
+
+    <h3>Teaching Python to Use a Browser</h3>
+
+    <br>
+
+    <p>
+        A real-world automation project
+    </p>
+
+    <br>
+
+    <small>
+        Gabriela Granja · F5 AI Bootcamp 2026
+    </small>
+
+    </section>
+
+    <section>
+            <h2>The Challenge</h2>
+            <p>How can we identify potential clients more efficiently?
+
+            Google Maps
+            ↓
+            Company Website
+            ↓
+            Public Information
+            ↓
+            Spreadsheet
+            ↓
+            Repeat.
+            </p>
+
+    </section>  
+
+        <section>
+            <h2>Why Selenium?</h2>
+            <p>Modern websites use JavaScript.</p>
+        </section>
+
+         <section>
+            <h2>Could Python Help?</h2>
+            <p>Can repetitive research tasks be automated?</p>
+        </section>   
+        <section>
+            <h2>First Attempt</h2>
+            <pre><code>
+            requests.get(...)
+            </code></pre>
+        </section>
+        
+        <section>
+            <h2>Why Selenium?</h2>
+            <p>Modern websites use JavaScript.</p>
+        </section>
+        <section>
+            <h2>How Selenium Works</h2>
+            <pre><code>
+        Python
+        ↓
+        Selenium
+        ↓
+        Chrome
+        ↓
+        Website
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Building the Automation</h2>
+            <pre><code>
+        Google Maps
+        ↓
+        Business Listing
+        ↓
+        Company Website
+        ↓
+        Public Information
+        ↓
+        CSV / XLSX
+            </code></pre>
+        </section>
+        
+        <section>
+            <h2>Live Demo</h2>
+            <p>Opening Maps, searching and extracting data.</p>
+        </section>
+        <section>
+            <h2>What Broke?</h2>
+            <ul>
+                <li>Cookies</li>
+                <li>Selectors</li>
+                <li>JavaScript</li>
+                <li>Sessions</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Key Takeaways</h2>
+            <ul>
+                <li>Solve the problem first</li>
+                <li>Selenium is a tool, not the goal</li>
+                <li>Real projects break</li>
+            </ul>
+        </section>
+        
+    </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+
+<script>
+Reveal.initialize();
+</script>
+
+</body>
+</html>
