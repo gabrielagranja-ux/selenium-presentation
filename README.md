@@ -122,4 +122,57 @@ selenium-presentation/
 │
 └── README.md
 ```
+## ▶️ Ejecución de la Presentación
+
+La presentación ha sido desarrollada utilizando **Reveal.js** y puede ejecutarse localmente mediante la extensión **Live Server** de Visual Studio Code.
+
+### Requisitos
+
+* Visual Studio Code
+* Extensión Live Server
+
+### Ejecución
+
+1. Abrir el proyecto en Visual Studio Code.
+2. Abrir el archivo:
+
+```text
+index.html
+```
+
+3. Hacer clic derecho sobre el archivo y seleccionar:
+
+```text
+Open with Live Server
+```
+
+4. El navegador abrirá automáticamente la presentación en una dirección similar a:
+
+```text
+http://127.0.0.1:5500/index.html
+```
+
+### Navegación
+
+| Acción                | Tecla |
+| --------------------- | ----- |
+| Siguiente diapositiva | →     |
+| Diapositiva anterior  | ←     |
+| Vista general         | ESC   |
+| Pantalla completa     | F11   |
+
+### Contenido de la presentación
+
+La presentación resume:
+
+* El problema de negocio.
+* El uso de Selenium para automatización web.
+* La arquitectura de la solución.
+* El proceso de desarrollo.
+* Los resultados obtenidos.
+* Las lecciones aprendidas durante el proyecto.
+
+## 📌 Nota
+
+Esta presentación fue desarrollada como práctica de Reveal.js para complementar la exposición del proyecto técnico y reforzar las competencias de comunicación y documentación de soluciones software.
 
