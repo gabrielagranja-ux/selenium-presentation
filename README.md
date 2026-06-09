@@ -63,3 +63,63 @@ Versión actual:
 * Clasificación automática de empresas.
 * Integración con herramientas CRM.
 * Cuadros de mando y métricas de captación.
+
+* ## ▶️ Ejecución de la Presentación
+
+La presentación ha sido desarrollada utilizando **Reveal.js** y puede visualizarse localmente desde el navegador.
+
+### Opción 1: Abrir directamente
+
+Abrir el archivo:
+
+```text
+index.html
+```
+
+con cualquier navegador moderno:
+
+* Google Chrome
+* Microsoft Edge
+* Firefox
+
+### Opción 2: Servidor local (recomendado)
+
+Desde la carpeta raíz del proyecto:
+
+```bash
+python -m http.server 8000
+```
+
+Abrir en el navegador:
+
+```text
+http://localhost:8000
+```
+
+### Navegación
+
+Durante la presentación:
+
+| Acción                | Tecla |
+| --------------------- | ----- |
+| Siguiente diapositiva | →     |
+| Diapositiva anterior  | ←     |
+| Vista general         | ESC   |
+| Pantalla completa     | F11   |
+
+### Estructura principal
+
+```text
+selenium-presentation/
+│
+├── index.html
+├── revealjs/
+│
+├── assets/
+│   ├── screenshots/
+│   ├── diagrams/
+│   └── videos/
+│
+└── README.md
+```
+
